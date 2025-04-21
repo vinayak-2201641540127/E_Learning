@@ -1,0 +1,17 @@
+// server:
+
+npm init -y 
+npm i express mongoose dotenv bcrypt jsonwebtoken
+npm i -D nodemon
+
+npm i sendmailer
+
+
+
+
+
+
+
+
+
+//client
