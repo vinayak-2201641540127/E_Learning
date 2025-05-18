@@ -5,13 +5,16 @@ npm i express mongoose dotenv bcrypt jsonwebtoken
 npm i -D nodemon
 
 npm i sendmailer
-
-
-
-
-
+npm i razorpay
 
 
 
 
 //client
+
+npm create vite@latest
+npm install
+npm run dev
+npm i react-router-dom
+npm i react-icons
+npm i react-hot-toast axios
