@@ -83,7 +83,7 @@ export const UserContextProvider = ({ children }) => {
         fetchUser();
     }, []);
 
-    return <UserContext.Provider value={{ user, setUser, setIsAuth, isAuth, loginUser, btnLoading, loading, registerUser, verifyOtp }}>
+    return <UserContext.Provider value={{ user, setUser, setIsAuth, isAuth, loginUser, btnLoading, loading, registerUser, verifyOtp, fetchUser }}>
         {children}
         <Toaster />
     </UserContext.Provider>
