@@ -18,7 +18,7 @@ const schema = new mongoose.Schema({
         ref: 'Courses',
         required: true,
     },
-    cretaedAt:{
+    createdAt:{
         type: Date,
         default: Date.now,
     },
